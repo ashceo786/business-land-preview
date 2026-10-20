@@ -14,6 +14,7 @@
 <link rel="preload" as="font" type="font/woff2" href="fonts/plus-jakarta-sans-latin.woff2" crossorigin>
 <link rel="preload" as="image" href="images/hero-blister-silver.webp" fetchpriority="high">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/blog.css">
 <script>document.documentElement.classList.add('js')</script>
 <noscript><style>.reveal{opacity:1!important;transform:none!important}.word>span{transform:none!important}</style></noscript>
 <script type="application/ld+json">
@@ -50,6 +51,7 @@
       <a href="#machinery">Machinery</a>
       <a href="#quality">Quality</a>
       <a href="#events">Events</a>
+      <a href="blog.html">Blog</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="btn btn-primary btn-sm hide-sm" href="#contact">Get a Quote</a>
@@ -259,6 +261,19 @@
   </div>
 </section>
 
+<!-- ============ BLOG ============ -->
+<section class="section tint" id="blog" aria-labelledby="blog-title">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">From our blog</p>
+      <h2 id="blog-title">Tips and news for your packing line</h2>
+      <p>Short, useful reads on foil, machines and quality, written by our team.</p>
+    </div>
+    <div class="cards three" data-blog="home" data-carousel="Latest articles"></div>
+    <div class="blog-cta reveal"><a class="btn btn-outline" href="blog.html">View all articles <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
 <!-- ============ WHY US ============ -->
 <section class="section tint why" aria-labelledby="why-title">
   <div class="container two">
@@ -321,7 +336,7 @@
         <li><a class="s-ig" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Business Land on Instagram"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg></a></li>
         <li><a class="s-wa" href="https://wa.me/923008449276" data-wa="Hello Business Land, I need a quote." target="_blank" rel="noopener" aria-label="Chat with Business Land on WhatsApp"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a></li>
       </ul></div>
-    <nav aria-label="Footer"><a href="#foils">Foils</a><a href="#machinery">Machinery</a><a href="#quality">Quality</a><a href="#events">Events</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Footer"><a href="#foils">Foils</a><a href="#machinery">Machinery</a><a href="#quality">Quality</a><a href="#events">Events</a><a href="blog.html">Blog</a><a href="#contact">Contact</a></nav>
   </div>
   <div class="container copy"><small>&copy; <span id="yr">2026</span> Business Land Trading Co. Images are sample photos.</small></div>
 <a class="fab" data-wa="Hello Business Land, I need a quote." href="https://wa.me/923008449276" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
@@ -330,6 +345,8 @@
 </footer>
 
 
+<script src="js/blog-data.js"></script>
+<script src="js/blog.js" defer></script>
 <script src="js/main.js" defer></script>
 </body>
 </html>
